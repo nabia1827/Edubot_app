@@ -1,0 +1,545 @@
+:root {
+  font-family: 'Poppins';
+
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h2 {
+  font-size: 2.7em;
+
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.ant-menu {
+  font-family: 'Poppins'; /* Hereda el font-family del body para todos los elementos del Menu */
+}
+.ant-menu-item-selected {
+  background-color: #4D6DD2!important; /* Cambia el color de fondo del ítem seleccionado */
+  color: #fff !important; /* Cambia el color del texto del ítem seleccionado */
+}
+
+.ant-menu-item-selected .anticon {
+  color: #fff !important; /* Cambia el color del icono del ítem seleccionado */
+}
+
+.logo-container {
+  width: 100%; /* Ajusta el ancho según sea necesario */
+  margin-top: 13%;
+  margin-bottom: 8%;
+}
+
+.logo-svg {
+  width: 45%; /* Ajusta el ancho del SVG al 100% del contenedor */
+  height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+}
+
+.marca {
+  font-size:1.9em;
+  font-weight:bold;
+  text-align: left;
+  font-family: 'Poppins';
+  color: #1e1975;
+}
+
+.user-area {
+  font-size:1.9em;
+  font-weight:bold;
+  text-align: right;
+  font-family: 'Poppins';
+}
+
+.user-message-box{
+  font-family: 'Poppins';
+  background-color: #E1E9F0;
+  padding: 1.0em;
+  border-radius: 10px;
+  max-width:50%;
+  text-align: left;
+
+}
+.bot-message-box{
+  font-family: 'Poppins';
+  background-color: #DDEEFE;
+  padding: 1.0em;
+  border-radius: 10px;
+  max-width:50%;
+  text-align: left;
+
+}
+
+.bot-options-box{
+  font-family: 'Poppins';
+  background-color: transparent;
+  padding: 0em;
+  max-width:40%;
+  text-align: left;
+
+}
+.pre-ghost{
+  background-color: transparent;
+}
+
+.landing-item {
+  color: #a3acc9 !important;  /* Color del texto */
+  font-family: 'Poppins';
+  background-color: transparent !important;
+  line-height: 0 !important;
+  height: 100% !important;
+  border-radius: 20px !important;
+  margin-right: 1.0em !important;
+}
+
+.landing-item:hover {
+  /*background: linear-gradient(to right, #5178FB, #47BAD8) !important;   Color de fondo al pasar el ratón */
+  color: #808cb2 !important;
+  background-color: #eceff7 !important;
+  
+
+}
+
+.landing-header{
+  box-shadow: 10px 10px 20px rgba(95, 111, 190, 0.2) !important;
+}
+
+.title-welcome{
+  font-family: 'Poppins';
+  font-size: 5vw;
+  font-weight: 700;
+  color: white;
+}
+.subtitle-welcome{
+  font-family: 'Poppins';
+  font-size: 2vw;
+  font-weight: 600;
+  color: white;
+}
+
+.text-welcome{
+  font-family: 'Poppins';
+  font-size: 2vh;
+  font-weight:200;
+  color: white;
+}
+
+.title-cards{
+  font-family: 'Poppins';
+  font-size: 3.0em;
+  font-weight: 700;
+  color: #1D399F;  
+}
+
+.subtitle-cards{
+  font-family: 'Poppins';
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #1D399F;  
+}
+
+.banner-icon-box{
+  background: linear-gradient(to bottom right, #5178FB, #47BAD8);
+  border-radius: 3.0em;
+  margin: 1.0em;
+  padding: 1.5em;
+  box-shadow: 10px 10px 20px rgba(108, 126, 211, 0.4);
+}
+
+.banner-title{
+  font-family: 'Poppins';
+  font-size: 1.4em;
+  font-weight: 700;
+  color: black;  
+}
+
+.banner-text{
+  font-family: 'Poppins';
+  font-size: 0.9em;
+  font-weight:400;
+  color: rgb(66, 66, 74);
+}
+
+/* bouncyCards.css */
+
+.section {
+  margin: auto;
+  max-width: 1120px; /* 7xl in Tailwind */
+  padding: 3rem 1rem; /* px-4 py-12 in Tailwind */
+  color: #1e293b; /* text-slate-800 in Tailwind */
+}
+
+.section-header {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.section-header-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 2rem;
+}
+
+.section-title {
+  max-width: 32rem; /* max-w-lg in Tailwind */
+  font-size: 2.25rem; /* text-4xl in Tailwind */
+  font-weight: bold;
+}
+
+.section-title span {
+  color: #64748b; /* text-slate-400 in Tailwind */
+}
+
+.section-button {
+  white-space: nowrap;
+  border-radius: 0.5rem; /* rounded-lg in Tailwind */
+  background-color: #0f172a; /* bg-slate-900 in Tailwind */
+  padding: 0.5rem 1rem; /* px-4 py-2 in Tailwind */
+  font-weight: 500;
+  color: #ffffff; /* text-white in Tailwind */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-xl in Tailwind */
+  transition: background-color 0.3s;
+}
+
+.section-button:hover {
+  background-color: #1e293b; /* hover:bg-slate-700 in Tailwind */
+}
+
+.grid {
+  display: grid;
+  gap: 1rem; /* gap-4 in Tailwind */
+}
+
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr)); /* grid-cols-12 in Tailwind */
+}
+
+.col-span-12 {
+  grid-column: span 12 / span 12; /* col-span-12 in Tailwind */
+}
+
+.md\:col-span-4 {
+  grid-column: span 4 / span 12; /* md:col-span-4 in Tailwind */
+}
+
+.md\:col-span-8 {
+  grid-column: span 8 / span 12; /* md:col-span-8 in Tailwind */
+}
+
+.bounce-card {
+  position: relative;
+  min-height: 300px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 1rem; /* rounded-2xl in Tailwind */
+  background-color: #f1f5f9; /* bg-slate-100 in Tailwind */
+  padding: 2rem; /* p-8 in Tailwind */
+}
+
+.bcard-title {
+  margin: auto;
+  text-align: center;
+  font-size: 1.4rem; /* text-3xl in Tailwind */
+  font-weight: 600; /* font-semibold in Tailwind */
+  font-family: 'Poppins';
+  color: #1e293b;
+}
+
+.bounce-card-content {
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+  right: 1rem;
+  top: 8rem;
+  transform: translateY(2rem);
+  border-radius: 1rem 1rem 0 0; /* rounded-t-2xl in Tailwind */
+  padding: 1rem;
+  transition: transform 250ms;
+}
+
+.bounce-card-content:hover {
+  transform: translateY(1rem) rotate(3deg);
+}
+
+.bounce-card-content span {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Gradient backgrounds */
+.gradient-violet {
+  background: linear-gradient(to bottom right, #8b5cf6, #4f46e5); /* from-violet-400 to-indigo-400 in Tailwind */
+}
+
+.gradient-skyblue {
+  background: linear-gradient(to bottom right, #5178FB, #47BAD8); /* from-amber-400 to-orange-400 in Tailwind */
+}
+
+.gradient-green {
+  background: linear-gradient(to bottom right, #22c55e, #10b981); /* from-green-400 to-emerald-400 in Tailwind */
+}
+
+.gradient-pink {
+  background: linear-gradient(to bottom right, #ec4899, #ef4444); /* from-pink-400 to-red-400 in Tailwind */
+}
+
+.bounce-box{
+  margin: 0.5em;
+}
+
+/* violetCards.css */
+
+.container {
+  padding: 16px 0px;
+}
+
+.header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.card-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 1024px) {
+  .card-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #1e65bd;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.3s;
+}
+
+.card:hover .card-overlay {
+  transform: translateY(0%);
+}
+
+.card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #5178FB, #47BAD8);
+  transform: translateY(100%);
+  transition: transform 0.3s;
+}
+
+.icon-background {
+  position: absolute;
+  top: -3rem;
+  right: -3rem;
+  font-size: 6rem;
+  color: #e2e8f0;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.card:hover .icon-background {
+  color: rgba(255, 255, 255, 0.489);
+  transform: rotate(12deg);
+}
+
+.icon-foreground {
+  margin-bottom: 8px;
+  font-size: 2rem;
+  color: #5271FF;
+  position: relative;
+
+  transition: color 0.3s;
+}
+
+.card:hover .icon-foreground {
+  color: #fff;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #1e293b;
+  position: relative;
+  font-family: 'Poppins';
+  transition: color 0.3s;
+}
+
+.card:hover .card-title {
+  color: #fff;
+}
+
+.card-subtitle {
+  color: #94a3b8;
+  position: relative;
+  font-family: 'Poppins';
+  transition: color 0.3s;
+}
+
+.card:hover .card-subtitle {
+  color: #bfdbfe;
+}
+
+.subtitle-bouncy{
+  font-family: 'Poppins';
+  font-size: 1.0em;
+  font-weight:400;
+  color: rgb(66, 66, 74);
+}
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+.princing-plan-name{
+  font-family: 'Poppins';
+  font-size: 1.6em;
+  font-weight: 700;
+  color: #1D399F;  
+}
+
+.princing-plan-description{
+  font-family: 'Poppins';
+}
+
+.princing-plan-price{
+  font-family: 'Poppins';
+  font-size: 3.0em;
+  font-weight: 700;
+  color: #1D399F;  
+}
+
+.princing-plan-fr{
+  font-family: 'Poppins';
+  font-size: 1.4em;
+  font-weight: 400;
+  color: #1D399F;  
+}
+
+.creator-title {
+
+  text-align: center;
+  font-size: 1.3rem; /* text-3xl in Tailwind */
+  font-weight: 600; /* font-semibold in Tailwind */
+  font-family: 'Poppins';
+  color: #1e293b;
+}
+
+.creator-subtitle {
+  text-align: center;
+  font-size: 1.0rem; /* text-3xl in Tailwind */
+  font-weight: 400; /* font-semibold in Tailwind */
+  font-family: 'Poppins';
+  color: #1e293b;
+}
+
+.footer-title {
+  font-size: 1.5rem; /* text-3xl in Tailwind */
+  font-weight: 600; /* font-semibold in Tailwind */
+  font-family: 'Poppins';
+  color: white;
+}
+
+.footer-subtitle {
+  font-size: 0.9rem; /* text-3xl in Tailwind */
+  font-weight: 400; /* font-semibold in Tailwind */
+  font-family: 'Poppins';
+  text-align: left;
+  color: white;
+}
+
+.footer-text {
+  font-size: 0.7rem; /* text-3xl in Tailwind */
+  font-weight: 300; /* font-semibold in Tailwind */
+  font-family: 'Poppins';
+  text-align: left;
+  color: white;
+}
+
+/* Mostrar menú desktop por defecto y ocultar el menú móvil */
+.menu-desktop {
+  display: block;
+  width: 80%;
+  height: 65%;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Ocultar menú desktop y mostrar menú móvil en pantallas pequeñas */
+  .menu-desktop {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+
+  .landing-item {
+    font-size: 4vw; /* Ajustar el tamaño de fuente para pantallas pequeñas */
+  }
+}
