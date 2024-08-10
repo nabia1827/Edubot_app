@@ -1,5 +1,6 @@
 # Edubot
 **Edubot** es un chatbot desarrollado para ayudar en la gestión documentaria de colegios estatales en Perú. Su objetivo es facilitar la administración y organización de documentos, mejorando la eficiencia y reduciendo el tiempo dedicado a tareas administrativas.
+- **Demo:** https://edubot-front-ny2myji2bq-rj.a.run.app/demo
 #
 ![Home](https://lh3.googleusercontent.com/u/0/d/1uNVkqlUQuaF-_e7QFzfCKL977avz2f7H=w4000-h8220-iv2)
 #
