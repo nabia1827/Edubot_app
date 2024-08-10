@@ -13,11 +13,12 @@
 - **Emails y Notificaciones:** Edubot puede automatizar el envío de correos dirigidos a la plana docente con respecto a temáticas de gestión educativa y monitoreo docente.
 
 # Instalación
-Clona el repositorio:
+1. Clona el repositorio:
 ```
 git clone https://github.com/nabia1827/Edubot_app.git
 ```
-Instala las dependencias:
+2. Instala las dependencias:
 ```
 npm install
 ```
+3. Instala el Backend de Edubot a través de este enlace. https://github.com/Kevin57312/Edubot-Backend
